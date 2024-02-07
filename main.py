@@ -34,6 +34,7 @@ async def main():
     if not await is_admin():
         logging.error(
             "Due the nature of the unlocking mechanism and the registery changes to be done,this script requires administrative privileges to run.")
+        input()
         return
     print(ascii_art)
     print(info_text)
@@ -85,7 +86,9 @@ async def main():
     for hive, subkey in keys_to_delete:
         delete_registry_key(hive, subkey)
 
-    logging.info("Operation completed.")
+    logging.info("Operation completed feel free to read up on the logs, press any key to quit.")
+    input()
+
 
 
 if __name__ == "__main__":
