@@ -6,7 +6,10 @@ It iterates through every directory known to be used by G HUB checks for file lo
 
 ![Le skreept](https://github.com/Redrrx/LogitechGhubCleaner/blob/master/res/console.png?raw=true)
 
-
+## Issues
+* Not all handlers can be cleared from locked files 100%
+* Could overload hardware in some instances if there's too many files.
+* False positive in the release executable.
 
 ## Warranty
 None, this deletes things related with G HUB use at your own RISK!
