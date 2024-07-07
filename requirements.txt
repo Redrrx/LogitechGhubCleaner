@@ -9,5 +9,5 @@ idna==3.6
 pipreqs==0.4.13
 requests==2.31.0
 tqdm==4.66.1
-urllib3==2.2.0
+urllib3==2.2.2
 yarg==0.1.9
